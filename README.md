@@ -13,3 +13,5 @@ Project 04 - [Link](https://github.com/Junaid-Hashmi/FSJS-Bootcamp/tree/main/Pro
 Project 05 - [Link](https://github.com/Junaid-Hashmi/FSJS-Bootcamp/tree/main/Projects/Project-5)
 
 Project 06 - [Link](https://github.com/Junaid-Hashmi/FSJS-Bootcamp/tree/main/Projects/Project-6)
+
+VSCode Clone using TailwindCSS - [Link](https://github.com/Junaid-Hashmi/FSJS-Bootcamp/tree/main/Projects/vscode-clone)
