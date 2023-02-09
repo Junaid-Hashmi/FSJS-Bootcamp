@@ -1,7 +1,7 @@
 # FSJS-Bootcamp
 This repo contains all my learnings, practice and assignments from iNeuron's Fullstack JS bootcamp.
 
-## My Assignments
+## HTML and CSS Assignments
 Project 01 - [Link](https://github.com/Junaid-Hashmi/FSJS-Bootcamp/tree/main/Projects/Project-1)
 
 Project 02 - [Link](https://github.com/Junaid-Hashmi/FSJS-Bootcamp/tree/main/Projects/Project-2)
