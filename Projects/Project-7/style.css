@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --pink: #f637ec;
+}
+body {
+  background-color: #151515;
+  color: #fff;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+button {
+  background-color: inherit;
+  border: none;
+}
+.text-pink {
+  color: var(--pink);
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin: 0 5%;
+}
+nav .nav-links {
+  align-self: center;
+}
+nav .nav-links li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+nav .nav-links li a:hover {
+  color: var(--pink);
+}
+nav .nav-buttons {
+  display: flex;
+  gap: 30px;
+}
+nav .nav-buttons .nav-language {
+  align-self: center;
+}
+nav button {
+  background-color: inherit;
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0 22px;
+  background: url(./assets/Icons/btn-pink-bg.svg) no-repeat center left;
+}
+nav button:hover {
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  margin-left: 5%;
+  background: url(./assets/Photos/backCards.png) no-repeat;
+  background-position-x: 350px;
+  background-position-y: -50px;
+  position: relative;
+}
+.hero-left {
+  width: 75%;
+}
+.hero-left .hero-heading {
+  font-size: 4.8rem;
+  font-weight: 400;
+  margin-top: 12%;
+}
+.hero-left .hero-heading strong {
+  font-weight: 600;
+}
+.hero-left .hero-description {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 35px 0;
+  width: 70%;
+}
+.hero-left .hero-btn {
+  font-size: 20px;
+  color: #fff;
+  padding: 3px 35px;
+  background: no-repeat url(./assets/Icons/btn-pink-bg.svg) left center;
+  background-size: contain;
+  margin-top: 40px;
+}
+.hero .statistics {
+  display: flex;
+  gap: 40px;
+  width: 60%;
+  margin: 100px 0;
+}
+.statistics .active-users,
+.statistics .years-experience {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.hero .statistics strong {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.hero-right .hero-img {
+  position: absolute;
+  right: -240px;
+  top: 20px;
+  width: 75%;
+  z-index: -1;
+}
