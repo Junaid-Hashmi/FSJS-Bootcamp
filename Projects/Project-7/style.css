@@ -24,6 +24,16 @@ button {
 .text-pink {
   color: var(--pink);
 }
+strong {
+  font-weight: 600;
+}
+.heading {
+  font-weight: 400;
+  font-size: 4rem;
+}
+.description {
+  font-size: 18px;
+}
 
 /* NAVBAR */
 nav {
@@ -74,15 +84,11 @@ nav button:hover {
 .hero-left {
   width: 75%;
 }
-.hero-left .hero-heading {
+.hero-left .heading {
   font-size: 4.8rem;
-  font-weight: 400;
   margin-top: 12%;
 }
-.hero-left .hero-heading strong {
-  font-weight: 600;
-}
-.hero-left .hero-description {
+.hero-left .description {
   font-size: 20px;
   font-weight: 300;
   margin: 35px 0;
@@ -136,12 +142,7 @@ nav button:hover {
 .services-text {
   display: flex;
 }
-.services-text .services-heading {
-  font-size: 4rem;
-  font-weight: 400;
-}
-.services-text .services-description {
-  font-size: 18px;
+.services-text .description {
   color: #b6b6b6;
   align-self: center;
   margin-left: 150px;
@@ -249,4 +250,25 @@ nav button:hover {
 .services .service-box p {
   font-size: 1.5rem;
   margin-top: 40px;
+}
+
+/* CARD CHOICES Section */
+.card-choices {
+  text-align: center;
+  background-color: #fceffb;
+  padding: 100px 30px 0px;
+}
+.card-choices .heading {
+  color: #151515;
+  padding: 0 200px;
+}
+.card-choices .description {
+  color: #606060;
+  margin-top: 50px;
+  padding: 0 300px;
+}
+.card-choices img {
+  position: relative;
+  bottom: 40px;
+  width: 70%;
 }
