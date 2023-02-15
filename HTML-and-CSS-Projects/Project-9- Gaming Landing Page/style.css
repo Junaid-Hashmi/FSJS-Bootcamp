@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --orange: #f4694c;
+}
+
+section {
+  padding: 0 6%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+button {
+  border: none;
+}
+.bg-inherit {
+  background-color: inherit;
+}
+.bg-orange {
+  background: var(--orange);
+}
+
+/* NAVBAR and HERO section */
+.hero-background {
+  background: url(./assets/Photos/futuristic-bg.png) no-repeat top;
+  background-size: cover;
+  color: #fff;
+}
+nav {
+  padding: 25px 6%;
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  margin-left: 10%;
+}
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav .nav-buttons {
+  margin-left: auto;
+}
+.nav-buttons #sign-in {
+  background: inherit;
+  padding: 10px 24px;
+}
+.nav-buttons #sign-up {
+  padding: 10px 24px;
+  background: var(--orange);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16vh;
+  padding-bottom: 60px;
+}
+.hero-left {
+  width: 50%;
+}
+.hero .heading {
+  font-size: 3rem;
+}
+.hero .description {
+  opacity: 0.9;
+  margin: 40px 0;
+}
+.hero-buttons button {
+  margin-top: 18px;
+  padding: 14px 36px;
+}
+.hero-buttons button:nth-child(2) {
+  border: 1px solid #fff;
+  margin-left: 20px;
+  padding: 13px 35px;
+}
+.hero-buttons button a {
+  font-size: 1rem;
+}
+
+.hero-right {
+  width: 50%;
+}
+.hero-right .hero-play {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#play-button {
+  cursor: pointer;
+}
+.hero-right #dash-img {
+  position: relative;
+  top: 22px;
+  left: 22%;
+}
+.hero-right #rightarrow-img {
+  position: relative;
+  bottom: 25px;
+  left: 88%;
+}
+.hero-right .play-description {
+  width: 200px;
+  font-size: 20px;
+  margin: auto;
+}

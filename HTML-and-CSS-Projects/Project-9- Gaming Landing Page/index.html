@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Gaming Landing Page</title>
   </head>
   <body>
@@ -11,40 +12,52 @@
       <header>
         <nav>
           <img src="./assets/Icons/Logo.svg" alt="logo" />
-          <ul>
+          <ul class="nav-links">
             <li><a href="">Home</a></li>
             <li><a href="">Categories</a></li>
             <li><a href="">How it works</a></li>
             <li><a href="">Pricing</a></li>
           </ul>
           <div class="nav-buttons">
-            <button>Sign In</button>
-            <button>Sign Up</button>
+            <button id="sign-in"><a href="">Sign In</a></button>
+            <button id="sign-up"><a href="">Sign Up</a></button>
           </div>
         </nav>
       </header>
       <section class="hero">
         <div class="hero-left">
-          <h1>
-            Play Game Everytime <br />
+          <h1 class="heading">
+            Play Game Every time <br />
             Always be Winner <br />
             And strong
           </h1>
-          <p>
+          <p class="description">
             Improve your gaming skills by playing games that are currently
             popular so that you don't go out of style improve skills
           </p>
           <div class="hero-buttons">
-            <button>Get Started</button>
-            <button>Learn More</button>
+            <button class="bg-orange"><a href="">Get Started</a></button>
+            <button class="bg-inherit"><a href="">Learn More</a></button>
           </div>
         </div>
         <div class="hero-right">
-          <div><img src="./assets/Icons/playButton.svg" alt="play" /></div>
+          <div class="hero-play">
+            <img
+              id="play-button"
+              src="./assets/Icons/playButton.svg"
+              alt="play"
+            />
+          </div>
           <div>
-            <img src="./assets/Icons/dash.svg" alt="" />
-            <p>The King of Terania And Last Season XXIV</p>
-            <img src="./assets/Icons/nextArrow.svg" alt="" />
+            <img id="dash-img" src="./assets/Icons/dash.svg" alt="" />
+            <p class="play-description">
+              The King of Terania And Last Season XXIV
+            </p>
+            <img
+              id="rightarrow-img"
+              src="./assets/Icons/rightArrow.svg"
+              alt=""
+            />
           </div>
         </div>
       </section>
