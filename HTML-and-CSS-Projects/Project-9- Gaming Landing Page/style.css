@@ -9,6 +9,7 @@
 :root {
   --orange: #f4694c;
   --orange-light: #fde1db;
+  --black: #000308;
 }
 
 section {
@@ -39,9 +40,14 @@ button a {
 }
 .bg-orange {
   background: var(--orange);
+  color: #fff;
 }
 .bg-orange-light {
   background: var(--orange-light);
+}
+.bg-black {
+  background-color: var(--black);
+  color: #fff;
 }
 
 /* NAVBAR and HERO section */
@@ -266,4 +272,51 @@ nav .nav-buttons {
 }
 .game .game-download {
   padding: 12px 25px;
+}
+
+/* Most played games section */
+.most-played {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+.most-played .heading {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.most-played .description {
+  width: 62%;
+  font-size: 14px;
+  line-height: 2;
+  margin: 80px 0px 0px 450px;
+  padding-right: 150px;
+}
+.most-played #bg-text-img {
+  width: 65%;
+  position: absolute;
+  right: 0;
+  top: 380px;
+  z-index: 0;
+}
+.most-played .images {
+  display: flex;
+  gap: 50px;
+  align-items: end;
+}
+.most-played .images img:nth-child(1) {
+  width: 400px;
+  height: 480px;
+  position: relative;
+  bottom: 120px;
+  z-index: 4;
+}
+.most-played .images img:nth-child(2) {
+  width: 300px;
+  height: 400px;
+  z-index: 4;
+}
+.most-played .images img:nth-child(3) {
+  width: 300px;
+  height: 270px;
 }
