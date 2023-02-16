@@ -27,3 +27,6 @@ Project 07 Credit Card Landing Page - [Source Code](./HTML-and-CSS-Projects/Proj
 
 Project 08 Hosting Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-8-%20Hosting%20Landing%20Page/)
 | [Live Site](https://hosting-landing-page-project.netlify.app)
+
+Project 09 Gaming Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-9-%20Gaming%20Landing%20Page/) |
+[Live Site](https://gaming-landing-page-project.netlify.app)
