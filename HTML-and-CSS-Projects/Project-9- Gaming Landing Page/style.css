@@ -302,6 +302,7 @@ nav .nav-buttons {
 .most-played .images {
   display: flex;
   gap: 50px;
+  padding-bottom: 30px;
   align-items: end;
 }
 .most-played .images img:nth-child(1) {
@@ -319,4 +320,35 @@ nav .nav-buttons {
 .most-played .images img:nth-child(3) {
   width: 300px;
   height: 270px;
+}
+
+/* Call to action section */
+.cta {
+  text-align: center;
+  padding: 0;
+}
+.cta .cta-bg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0.6;
+  z-index: 0;
+}
+.cta .cta-text {
+  position: relative;
+  z-index: 1;
+}
+.cta .heading {
+  width: 50%;
+  margin: auto;
+  padding-top: 90px;
+  line-height: 1.2;
+}
+.cta .description {
+  margin: 30px auto;
+  width: 35%;
+}
+.cta button {
+  padding: 15px 35px;
+  margin: 10px 0 80px 0;
 }
