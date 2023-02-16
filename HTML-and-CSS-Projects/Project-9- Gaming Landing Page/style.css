@@ -8,10 +8,14 @@
 
 :root {
   --orange: #f4694c;
+  --orange-light: #fde1db;
 }
 
 section {
   padding: 0 6%;
+}
+section .heading {
+  font-size: 2.5rem;
 }
 li {
   list-style: none;
@@ -21,14 +25,23 @@ a {
   color: #fff;
   font-size: 14px;
 }
+p {
+  opacity: 0.7;
+}
 button {
   border: none;
+}
+button a {
+  font-size: 1rem;
 }
 .bg-inherit {
   background-color: inherit;
 }
 .bg-orange {
   background: var(--orange);
+}
+.bg-orange-light {
+  background: var(--orange-light);
 }
 
 /* NAVBAR and HERO section */
@@ -74,7 +87,6 @@ nav .nav-buttons {
   font-size: 3rem;
 }
 .hero .description {
-  opacity: 0.9;
   margin: 40px 0;
 }
 .hero-buttons button {
@@ -85,9 +97,6 @@ nav .nav-buttons {
   border: 1px solid #fff;
   margin-left: 20px;
   padding: 13px 35px;
-}
-.hero-buttons button a {
-  font-size: 1rem;
 }
 
 .hero-right {
@@ -114,7 +123,147 @@ nav .nav-buttons {
   left: 88%;
 }
 .hero-right .play-description {
+  opacity: 1;
   width: 200px;
   font-size: 20px;
   margin: auto;
+}
+
+/* Section- Popular Games */
+.popular-games {
+  padding-top: 100px;
+}
+.popular-games .heading {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+/* row */
+.popular-games .games {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 23%;
+  height: 350px;
+  color: #fff;
+  display: flex;
+}
+.card-1 {
+  background: url(./assets/Photos/image\ 2.png) no-repeat;
+  background-size: cover;
+  background-position: -260px 0;
+}
+.card-2 {
+  background: url(./assets/Photos/image\ 4.png) no-repeat center;
+  background-size: cover;
+}
+.card-3 {
+  background: url(./assets/Photos/image\ 3.png) no-repeat center;
+  background-size: cover;
+}
+.card-4 {
+  background: url(./assets/Photos/Rectangle\ 56.png) no-repeat center;
+  background-size: cover;
+}
+.card .card-description {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.2);
+  align-self: end;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+}
+.card p {
+  opacity: 1;
+}
+.card .game-category {
+  opacity: 0.7;
+}
+.card .download-btn {
+  padding: 6px 9px;
+}
+.card .download-btn a {
+  font-size: 14px;
+}
+
+/*Section Game Explore */
+.game-explore {
+  margin: 120px 0;
+  display: flex;
+  gap: 80px;
+}
+.explore-left {
+  background: url(./assets/Photos/Rectangle\ 57.png) no-repeat center;
+  background-size: cover;
+  width: 50%;
+}
+.game-explore .description {
+  font-size: 14px;
+  line-height: 2;
+  margin: 18px 0;
+}
+.explore-right {
+  width: 50%;
+}
+.explore-right button {
+  margin: 20px 0;
+  padding: 10px 24px;
+}
+.explore-right button:nth-child(2) {
+  border: 1px solid var(--orange);
+  padding: 9px 23px;
+  margin-left: 20px;
+}
+.explore-right button:nth-child(2) a {
+  color: var(--orange);
+}
+
+/* Section Weekly Recommendation */
+.weekly-recommend .section-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weekly-recommend .section-top .heading {
+  width: 50%;
+}
+.weekly-recommend .section-top button {
+  padding: 20px 16px;
+  margin: 0 6px;
+}
+/* Recommended Games */
+.weekly-recommend .games {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.weekly-recommend .games .game {
+  width: 46%;
+  display: flex;
+  gap: 25px;
+}
+.game img {
+  width: 42%;
+}
+.game .game-heading {
+  margin: 15px 0;
+}
+.game .game-category {
+  color: var(--orange);
+  font-weight: 500;
+}
+.game .game-description {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 15px 0;
+}
+.game .game-download {
+  padding: 12px 25px;
 }
