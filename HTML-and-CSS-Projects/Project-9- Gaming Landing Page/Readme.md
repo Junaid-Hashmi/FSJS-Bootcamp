@@ -2,6 +2,6 @@
 
 A landing page for games made using HTML and vanilla CSS.
 
-Have a look - [**Live Site**](https://game-landing-page-project-jh.netlify.app)
+Have a look - [**Live Site**](https://gaming-landing-page-project.netlify.app)
 
 ![output](./gamingLandingPage-output.jpeg)
