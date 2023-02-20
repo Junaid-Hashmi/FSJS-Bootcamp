@@ -25,7 +25,9 @@
             <li><a class="text-sm font-bold" href="#case">Case</a></li>
             <li><a class="text-sm font-bold" href="#products">Products</a></li>
           </ul>
-          <button class="text-sm bg-[#1e1e21] px-10 py-3 rounded">Shop</button>
+          <button class="text-sm bg-[#1e1e21] px-10 py-3 rounded">
+            <a href="#buy-now">Shop</a>
+          </button>
         </div>
       </nav>
     </header>
@@ -77,13 +79,14 @@
         </div>
       </section>
 
+      <!-- Specs -->
       <section id="specs" class="py-24">
         <img
-          class="mx-auto my-2"
+          class="mx-auto my-8"
           src="./assets/Icons/specsLogo.png"
           alt="specs-logo"
         />
-        <div class="flex mx-[15%] justify-between my-10">
+        <div class="flex mx-[12%] justify-between my-10">
           <!-- specs-left -->
           <div class="self-center">
             <div class="mb-7 ml-7">
@@ -128,7 +131,175 @@
           </div>
 
           <!-- specs-right -->
-          <img src="./assets/Photos/specsImage.png" alt="specs-image" />
+          <img
+            class="w-[60%]"
+            src="./assets/Photos/specsImage.png"
+            alt="specs-image"
+          />
+        </div>
+      </section>
+
+      <!-- Case -->
+      <section id="case" class="mb-36">
+        <img
+          class="mx-auto my-8"
+          src="./assets/Icons/caseLogo.png"
+          alt="case-logo"
+        />
+        <div class="flex mx-[12%] justify-between my-10 gap-16">
+          <!-- case-left -->
+          <img class="w-[50%]" src="./assets/Photos/caseImage.png" alt="case" />
+
+          <!-- case-right -->
+          <div class="self-center w-[45%]">
+            <p class="text-sm opacity-80 leading-loose">
+              With a comfortable and adaptable case so that you can store it
+              whenever you want, and keep your durability forever.
+            </p>
+            <button class="text-sm bg-[#1e1e21] px-5 py-3 mt-6 rounded">
+              <img
+                class="inline-block mb-px mr-3 w-5"
+                src="./assets/Icons/group.png"
+                alt=""
+              />More info
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Buy Now -->
+      <section
+        id="buy-now"
+        class="flex bg-[#181a1b] px-[12%] py-8 items-center justify-between rounded"
+      >
+        <!-- left -->
+        <div class="w-2/5">
+          <h2 class="text-[21px] font-medium">
+            Immerse yourself in your music
+          </h2>
+          <p class="opacity-80 text-sm my-4">Buy now, up to 40% off</p>
+          <button class="text-sm bg-black px-6 py-3 rounded">
+            <img
+              class="inline-block w-4 mb-1 mr-3"
+              src="./assets/Icons/shoppingBag.png"
+              alt=""
+            />Buy now
+          </button>
+        </div>
+
+        <!-- right -->
+        <img
+          class="w-[56%]"
+          src="./assets/Photos/buyNowSectionImage.png"
+          alt=""
+        />
+      </section>
+
+      <!-- Products -->
+      <section id="products" class="my-36 mx-[12%]">
+        <img class="mx-auto mb-8" src="./assets/Icons/productLogo.png" alt="" />
+
+        <!-- products -->
+        <div class="mt-24 grid grid-cols-3 gap-y-20">
+          <!-- product-1 -->
+          <div
+            class="bg-[#181a1b] w-[150px] mx-[12%] p-2 h-[150px] relative flex items-end rounded-xl cursor-pointer"
+          >
+            <img
+              class="w-[100px] absolute left-[25px] bottom-[62px]"
+              src="./assets/Photos/black.png"
+              alt="black"
+            />
+            <div class="w-full flex justify-between items-center">
+              <div>
+                <p class="text-sm">Black</p>
+                <p class="opacity-80"><small>N299K</small></p>
+              </div>
+              <div class="bg-black p-2 rounded-[6px]">
+                <img class="w-3" src="./assets/Icons/Group.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- product-2 -->
+          <div
+            class="bg-[#181a1b] w-[150px] mx-[12%] p-2 h-[150px] relative flex items-end rounded-xl cursor-pointer"
+          >
+            <img
+              class="w-[100px] absolute left-[25px] bottom-[62px]"
+              src="./assets/Photos/redBlack.png"
+              alt="black"
+            />
+            <div class="w-full flex justify-between items-center">
+              <div>
+                <p class="text-sm">Red Black</p>
+                <p class="opacity-80"><small>N299K</small></p>
+              </div>
+              <div class="bg-black p-2 rounded-[6px]">
+                <img class="w-3" src="./assets/Icons/Group.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- product-3 -->
+          <div
+            class="bg-[#181a1b] w-[150px] mx-[12%] p-2 h-[150px] relative flex items-end rounded-xl cursor-pointer"
+          >
+            <img
+              class="w-[100px] absolute left-[25px] bottom-[62px]"
+              src="./assets/Photos/nightBlack.png"
+              alt="black"
+            />
+            <div class="w-full flex justify-between items-center">
+              <div>
+                <p class="text-sm">Night Black</p>
+                <p class="opacity-80"><small>N299K</small></p>
+              </div>
+              <div class="bg-black p-2 rounded-[6px]">
+                <img class="w-3" src="./assets/Icons/Group.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- product-4 -->
+          <div
+            class="bg-[#181a1b] w-[150px] mx-[12%] p-2 h-[150px] relative flex items-end rounded-xl cursor-pointer"
+          >
+            <img
+              class="w-[100px] absolute left-[25px] bottom-[62px]"
+              src="./assets/Photos/blue.png"
+              alt="black"
+            />
+            <div class="w-full flex justify-between items-center">
+              <div>
+                <p class="text-sm">Blue</p>
+                <p class="opacity-80"><small>N299K</small></p>
+              </div>
+              <div class="bg-black p-2 rounded-[6px]">
+                <img class="w-3" src="./assets/Icons/Group.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- product-5 -->
+          <div
+            class="bg-[#181a1b] w-[150px] mx-[12%] p-2 h-[150px] relative flex items-end rounded-xl cursor-pointer"
+          >
+            <img
+              class="w-[100px] absolute left-[25px] bottom-[62px]"
+              src="./assets/Photos/twilightGray.png"
+              alt="black"
+            />
+            <div class="w-full flex justify-between items-center">
+              <div>
+                <p class="text-sm">Twilight Gray</p>
+                <p class="opacity-80"><small>N299K</small></p>
+              </div>
+              <div class="bg-black p-2 rounded-[6px]">
+                <img class="w-3" src="./assets/Icons/Group.svg" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
