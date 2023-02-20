@@ -16,7 +16,7 @@
   </head>
   <body class="bg-[#0f0f10] text-white font-['Poppins']">
     <header class="mx-[10%] py-7">
-      <nav class="flex justify-between items-center pl-[9%]">
+      <nav id="nav" class="flex justify-between items-center pl-[9%]">
         <img src="./assets/Photos/beatsLogo.png" alt="logo" />
         <div class="flex items-center gap-14">
           <ul class="flex gap-12">
@@ -53,7 +53,7 @@
               and a sleek, streamlined design with comfortable padded earphones,
               delivering first-rate playback.
             </p>
-            <button class="bg-[#1e1e21] px-4 py-2 my-16 rounded">
+            <button class="bg-[#1e1e21] px-5 py-3 my-16 rounded">
               <img
                 class="inline-block w-4 mb-1"
                 src="./assets/Icons/shoppingBag.png"
@@ -303,5 +303,63 @@
         </div>
       </section>
     </main>
+
+    <footer class="px-[12%] flex justify-between items-start relative pb-14">
+      <img class="ml-[7%]" src="./assets/Photos/beatsLogo.png" alt="logo" />
+      <ul>
+        <li class="font-semibold">Products</li>
+        <li class="text-sm my-3 opacity-80"><a href="">Headphones</a></li>
+        <li class="text-sm my-3 opacity-80"><a href="">Earphones</a></li>
+        <li class="text-sm my-3 opacity-80"><a href="">Earbuds</a></li>
+        <li class="text-sm my-3 opacity-80"><a href="">Accessories</a></li>
+      </ul>
+      <ul>
+        <li class="font-semibold">Support</li>
+        <li class="text-sm my-3 opacity-80"><a href="">Product help</a></li>
+        <li class="text-sm my-3 opacity-80"><a href="">Register</a></li>
+        <li class="text-sm my-3 opacity-80"><a href="">Updates</a></li>
+        <li class="text-sm my-3 opacity-80"><a href="">Provides</a></li>
+      </ul>
+      <div>
+        <form class="bg-[#181a1b] py-2 px-4 rounded">
+          <input
+            class="bg-inherit text-sm focus:outline-0"
+            type="email"
+            placeholder="Email"
+          />
+          <button class="text-xs bg-black p-3 rounded">
+            <img
+              class="inline-block w-4 mb-1"
+              src="./assets/Icons/rightArrow.png"
+              alt=""
+            />
+            Subscribe
+          </button>
+        </form>
+
+        <!-- socials -->
+        <div class="flex gap-3 mt-5">
+          <a href=""
+            ><img src="./assets/Icons/facebook.png" alt="facebook"
+          /></a>
+          <a href="https://www.twitter.com/junaidhashmi07/"
+            ><img src="./assets/Icons/twitter.png" alt="facebook"
+          /></a>
+          <a href="https://www.instagram.com/junaidhashmi07/"
+            ><img src="./assets/Icons/instagram.png" alt="facebook"
+          /></a>
+          <a href="https://www.linkedin.com/in/junaidhashmi07/"
+            ><img src="./assets/Icons/linkedin.png" alt="facebook"
+          /></a>
+        </div>
+      </div>
+      <a href="#nav">
+        <img
+          class="absolute right-8 bottom-[50%]"
+          src="./assets/Icons/upArrow.png"
+          alt=""
+        />
+      </a>
+    </footer>
   </body>
 </html>
