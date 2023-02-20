@@ -30,3 +30,6 @@ Project 08 Hosting Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-
 
 Project 09 Gaming Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-9-%20Gaming%20Landing%20Page/) |
 [Live Site](https://gaming-landing-page-project.netlify.app)
+
+Project 10 Real Estate Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-10-%20Real%20Estate%20Landing%20Page/) |
+[Live Site](https://real-estate-langing-page-project.netlify.app/)
