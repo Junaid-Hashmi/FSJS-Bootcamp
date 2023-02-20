@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Beats Landing Page</title>
+  </head>
+  <body class="bg-[#0f0f10] text-white font-['Poppins']">
+    <header class="mx-[10%] py-7">
+      <nav class="flex justify-between items-center pl-[9%]">
+        <img src="./assets/Photos/beatsLogo.png" alt="logo" />
+        <div class="flex items-center gap-14">
+          <ul class="flex gap-12">
+            <li><a class="text-sm font-bold" href="#hero">Home</a></li>
+            <li><a class="text-sm font-bold" href="#specs">Specs</a></li>
+            <li><a class="text-sm font-bold" href="#case">Case</a></li>
+            <li><a class="text-sm font-bold" href="#products">Products</a></li>
+          </ul>
+          <button class="text-sm bg-[#1e1e21] px-10 py-3 rounded">Shop</button>
+        </div>
+      </nav>
+    </header>
+    <main class="mx-[20%]">
+      <section id="hero">
+        <!-- hero main -->
+        <div class="flex justify-between">
+          <img
+            class="w-60 relative bottom-52 left-10"
+            src="./assets/Photos/mainImage.png"
+            alt=""
+          />
+          <div class="w-1/2">
+            <img
+              class="relative left-16"
+              src="./assets/Photos/onEar.png"
+              alt=""
+            />
+            <h1 class="text-[3.4rem] font-semibold">Beats 3</h1>
+            <p class="text-xl my-6"><strong>Overview</strong></p>
+            <p class="opacity-80 text-[15px]">
+              Enjoy award-winning Beats sound with wireless listening freedom
+              and a sleek, streamlined design with comfortable padded earphones,
+              delivering first-rate playback.
+            </p>
+            <button class="bg-[#1e1e21] px-4 py-2 my-16 rounded">
+              <img
+                class="inline-block w-4 mb-1"
+                src="./assets/Icons/shoppingBag.png"
+                alt=""
+              /><small class="px-3">Add to Bag</small><strong>N399K</strong>
+            </button>
+          </div>
+        </div>
+        <!-- logos -->
+        <div class="flex justify-between">
+          <img class="h-6" src="./assets/Photos/appleLogo.png" alt="apple" />
+          <img
+            class="h-6"
+            src="./assets/Photos/spotifyLogo.png"
+            alt="spotify"
+          />
+          <img class="h-5" src="./assets/Photos/amazonLogo.png" alt="amazon" />
+          <img
+            class="h-4"
+            src="./assets/Photos/youtubeLogo.png"
+            alt="youtube"
+          />
+        </div>
+      </section>
+
+      <section id="specs" class="py-24">
+        <img
+          class="mx-auto my-2"
+          src="./assets/Icons/specsLogo.png"
+          alt="specs-logo"
+        />
+        <div class="flex mx-[15%] justify-between my-10">
+          <!-- specs-left -->
+          <div class="self-center">
+            <div class="mb-7 ml-7">
+              <img
+                class="w-3 mb-1"
+                src="./assets/Icons/bluetooth.png"
+                alt="bluetooth"
+              />
+              <p class="font-medium text-[15px]">Connection</p>
+              <p class="text-[13px] mt-px opacity-80">
+                <small>Bluetooth v5.2</small>
+              </p>
+            </div>
+
+            <div class="mb-7">
+              <img class="w-5" src="./assets/Icons/battery.png" alt="battery" />
+              <p class="font-medium text-[15px]">Battery</p>
+              <p class="text-[13px] mt-px opacity-80">
+                <small>Duration 40h</small>
+              </p>
+            </div>
+
+            <div class="mb-7">
+              <img
+                class="w-3 mb-1"
+                src="./assets/Icons/charger.png"
+                alt="charger"
+              />
+              <p class="font-medium text-[15px]">Load</p>
+              <p class="text-[13px] mt-px opacity-80">
+                <small>Fast charge 4.2-AAC</small>
+              </p>
+            </div>
+
+            <div class="w-[70%] ml-7">
+              <img class="w-3 mb-1" src="./assets/Icons/mic.png" alt="mic" />
+              <p class="font-medium text-[15px]">Microphone</p>
+              <p class="text-[13px] mt-px opacity-80">
+                <small>Supports Apple Siri and Google</small>
+              </p>
+            </div>
+          </div>
+
+          <!-- specs-right -->
+          <img src="./assets/Photos/specsImage.png" alt="specs-image" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
