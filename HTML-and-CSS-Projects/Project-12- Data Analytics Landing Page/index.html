@@ -4,7 +4,350 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Data Analytics Landing Page</title>
   </head>
-  <body></body>
+
+  <body class="font-['Poppins'] overflow-x-hidden">
+    <header class="mx-[12%] py-6">
+      <nav class="text-sm flex justify-between items-center">
+        <img src="./images/Logo.png" alt="" />
+        <ul class="flex gap-10 items-center">
+          <li>
+            <a href="">About</a
+            ><img
+              class="inline-block w-5 mb-1"
+              src="./images/chevron-down.svg"
+              alt=""
+            />
+          </li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Login</a></li>
+          <li>
+            <button
+              class="border-2 border-[#722ED1] text-[#722ED1] py-2 px-4 rounded-full"
+            >
+              Start free trial
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- hero -->
+      <section class="flex mx-[12%] mt-[5%] justify-between">
+        <!-- left -->
+        <div class="w-1/2">
+          <div
+            class="bg-[#f9f0ff] text-[#722ED1] rounded-full py-2 px-5 w-fit font-medium"
+          >
+            <img
+              class="inline-block mr-3"
+              src="./images/edit-brightness.svg"
+              alt=""
+            />
+            v3.1 released.
+            <a class="underline" href="">Learn more</a>
+          </div>
+          <h1 class="font-semibold text-5xl my-8">
+            Your data with real-time analytics
+          </h1>
+          <p class="opacity-60 mb-8">
+            Harness the potential of Big Data Analytics & Cloud Services and
+            become a data-driven organization with Needle tail
+          </p>
+          <!-- buttons -->
+          <div>
+            <button class="bg-[#722ED1] text-white py-3 px-6 rounded-full mr-4">
+              Start free trial
+            </button>
+            <button class="bg-white text-[#722ED1] py-3 px-6 rounded-full">
+              Learn more
+            </button>
+          </div>
+        </div>
+
+        <!-- right -->
+        <img src="./images/image 1.png" alt="" />
+
+        <!-- background gradient -->
+        <div
+          class="w-[110vw] h-[102vh] bg-gradient-to-t from-[#e3f2ff] to-white absolute top-0 right-0 z-[-1] origin-top-left rotate-[-4deg]"
+        ></div>
+      </section>
+
+      <!-- Why Qubly -->
+      <section class="mt-[30vh] mx-[12%] py-12 text-center">
+        <div
+          class="bg-[#f9f0ff] text-[#722ED1] rounded-full py-2 px-5 w-fit font-medium mx-auto"
+        >
+          <img
+            class="inline-block mr-3"
+            src="./images/Icon awesome-eye.png"
+            alt=""
+          />Why Qubly
+        </div>
+
+        <h2 class="text-3xl font-semibold my-8">
+          Get actionable insights from Big Data in 3 steps
+        </h2>
+        <p class="w-[65%] m-auto opacity-60">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+          similique facilis amet excepturi recusandae, odit saepe molestias ex
+          obcaecati vitae!
+        </p>
+
+        <!-- 3 steps -->
+        <div class="flex my-6 justify-between">
+          <div>
+            <img class="mx-auto mb-4" src="./images/chart-bar-33.svg" alt="" />
+            <p><strong>Valuable business insights</strong></p>
+            <p class="text-[15px] opacity-60 mt-4">
+              Collect processed & cleaned data that is ready to be analyzed to
+              gather valuable business insights
+            </p>
+          </div>
+          <div>
+            <img
+              class="mx-auto mb-4"
+              src="./images/newsletter-dev.svg"
+              alt=""
+            />
+            <p><strong>Powerful Algorithms</strong></p>
+            <p class="text-[15px] opacity-60 mt-4">
+              With the help of powerful algorithms, quality rules & techniques,
+              obtain simplified & enriched data.
+            </p>
+          </div>
+          <div>
+            <img class="mx-auto mb-4" src="./images/timeline.svg" alt="" />
+            <p><strong>Data in real-time</strong></p>
+            <p class="text-[15px] opacity-60 mt-4">
+              Collect data in real-time from multiple channels and move it into
+              data lake, in its original format.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 3 -->
+      <section class="my-12 mx-[12%]">
+        <!-- for product teams -->
+        <div class="flex justify-between items-center">
+          <!-- img -->
+          <img src="./images/Group 21.svg" alt="" />
+          <!-- text -->
+          <div class="w-1/2">
+            <div
+              class="bg-[#f9f0ff] text-[#722ED1] rounded-full py-2 px-5 w-fit font-medium mb-5"
+            >
+              <img
+                class="inline-block mr-3"
+                src="./images/Group 11.svg"
+                alt=""
+              />For Product Teams
+            </div>
+            <h3 class="text-3xl font-semibold">Launch with the best stack</h3>
+            <p class="text-[15px] opacity-60 w-4/5 my-6">
+              A centralized platform that integrates zillions of data sources
+              using Big Data ELT (Extract, Load & Transform) that leaves no data
+              behind
+            </p>
+          </div>
+        </div>
+
+        <!-- for engineering teams -->
+        <div class="mt-16 flex justify-between items-center">
+          <!-- text -->
+          <div class="w-1/2">
+            <div
+              class="bg-[#f9f0ff] text-[#722ED1] rounded-full py-2 px-5 w-fit font-medium mb-5"
+            >
+              <img
+                class="inline-block mr-3"
+                src="./images/Group 28.svg"
+                alt=""
+              />For Engineering Teams
+            </div>
+            <h3 class="text-3xl font-semibold">
+              Data-driven pipelines in minutes
+            </h3>
+            <p class="text-[15px] opacity-60 my-6">
+              Maintenance-free data pipelines with quick set-up and
+              straight-forward deployments that are powered by a modern &
+              scalable platform
+            </p>
+          </div>
+          <!-- image -->
+          <img class="w-1/2" src="./images/image 6.png" alt="" />
+        </div>
+      </section>
+
+      <!-- cto-quote -->
+      <section class="text-center my-20 py-16 px-[16%] relative">
+        <!-- bg-gradient -->
+        <div
+          class="w-[110vw] h-[500px] bg-gradient-to-b from-[#fcf8ff] to-[#f2f8ff] origin-top rotate-[-4deg] absolute top-0 right-0 z-[-1]"
+        ></div>
+        <div class="border-b-2 border-[#ccc] pb-6">
+          <p class="text-xl">
+            "What I love about SullivanAnalytics is the easy way we can
+            collaborate even if there is a lot of people involved in the
+            process"
+          </p>
+          <img class="mx-auto my-8" src="./images/Profile.svg" alt="profile" />
+          <p><strong>Rowan Sullivan</strong></p>
+          <p><strong>CTO @ SullivanAnalytics</strong></p>
+        </div>
+        <div class="flex justify-between p-8">
+          <img src="./images/Logo.png" alt="" />
+          <img src="./images/Logo.png" alt="" />
+          <img src="./images/Logo.png" alt="" />
+          <img src="./images/Logo.png" alt="" />
+          <img src="./images/Logo.png" alt="" />
+        </div>
+      </section>
+
+      <!-- cta -->
+      <section class="my-36 mx-[15%] flex gap-16">
+        <!-- left -->
+        <div class="w-2/5">
+          <div class="border-b-2 border-[#ccc]">
+            <h3 class="text-[1.6rem] font-semibold leading-tight pb-3">
+              See why the world's best companies use Qubly to become truly
+              data-driven.
+            </h3>
+            <div
+              class="text-sm bg-white w-fit mx-auto relative top-[10px] px-4"
+            >
+              <p class="opacity-60">Trusted by</p>
+            </div>
+          </div>
+          <div class="my-16 grid grid-cols-2 gap-y-12">
+            <img src="./images/Logo.png" alt="" />
+            <img src="./images/Logo.png" alt="" />
+            <img src="./images/Logo.png" alt="" />
+            <img src="./images/Logo.png" alt="" />
+          </div>
+        </div>
+
+        <!-- right-signup -->
+        <div class="w-1/2 bg-[#f9f0ff] px-8 rounded">
+          <form class="bg-white shadow-lg rounded relative bottom-8">
+            <h3 class="font-semibold text-xl text-center pt-7 pb-5">Sign Up</h3>
+            <input
+              class="block w-4/5 mx-auto py-3 mb-3 bg-[#722ed1] text-white rounded"
+              type="submit"
+              value="Start your free trial"
+            />
+            <input
+              class="block w-4/5 mx-auto p-3 mb-3 border border-[#ccc] rounded"
+              type="email"
+              placeholder="Your primary email"
+            />
+            <input
+              class="block w-4/5 mx-auto p-3 mb-3 border border-[#ccc] rounded"
+              type="password"
+              placeholder="Password"
+            />
+            <input
+              class="block w-4/5 mx-auto p-3 mb-3 border border-[#ccc] rounded"
+              type="password"
+              placeholder="Re-type Password"
+            />
+            <div class="mx-auto w-fit text-sm font-medium my-3">OR</div>
+            <a href=""
+              ><img
+                class="mx-auto"
+                src="./images/btn_google_signin_dark_normal_web@2x.svg"
+                alt=""
+            /></a>
+            <hr class="border-b border-[#ccc] w-4/5 mx-auto my-4" />
+            <p class="text-sm pb-6 text-center">
+              Already have an account?
+              <a class="text-[#722ed1] hover:underline" href="">Login</a>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#fbfcff] px-[15%] py-16 flex justify-between gap-8">
+      <div class="w-1/5">
+        <img src="./images/Logo.png" alt="" />
+        <p class="text-xs my-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          laboriosam eveniet excepturi illum tempora delectus at minima earum
+          veniam.
+        </p>
+        <div class="flex gap-4">
+          <img src="./images/facebook-icon.svg" alt="" />
+          <img src="./images/twitter-3.svg" alt="" />
+          <img src="./images/instagram-2016.svg" alt="" />
+        </div>
+      </div>
+      <ul>
+        <li class="text-sm font-bold mb-2">Product</li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Connections</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Protocols</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Personas</a></li>
+        <li>
+          <a class="text-xs hover:text-[#722ed1]" href="">Integrations</a>
+        </li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Catalog</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Pricing</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Security</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">GDPR</a></li>
+      </ul>
+      <ul>
+        <li class="text-sm font-bold mb-2">For Developers</li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Docs</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">API</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Open Source</a></li>
+        <li>
+          <a class="text-xs hover:text-[#722ed1]" href="">Engineering Team</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="text-sm font-bold mb-2">Company</li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Careers</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Blog</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Press</a></li>
+      </ul>
+      <ul>
+        <li class="text-sm font-bold mb-2">Support</li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Help center</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Contact Us</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Security</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Bulletins</a></li>
+        <li>
+          <a class="text-xs hover:text-[#722ed1]" href="">Documentation</a>
+        </li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Partner</a></li>
+        <li><a class="text-xs hover:text-[#722ed1]" href="">Portal</a></li>
+      </ul>
+      <div>
+        <p class="text-sm"><strong>Newsletter</strong></p>
+        <form
+          class="flex justify-between items-center p-3 bg-white rounded shadow-lg"
+        >
+          <input
+            class="w-4/5 focus:outline-0 text-xs"
+            type="email"
+            placeholder="Email"
+          />
+          <img src="./images/Icon ionic-ios-send.png" alt="" />
+        </form>
+      </div>
+    </footer>
+  </body>
 </html>
