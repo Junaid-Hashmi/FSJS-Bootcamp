@@ -33,3 +33,9 @@ Project 09 Gaming Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-9
 
 Project 10 Real Estate Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-10-%20Real%20Estate%20Landing%20Page/) |
 [Live Site](https://real-estate-langing-page-project.netlify.app/)
+
+Project 11 Beats Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-11-%20Beats%20Landing%20Page/) |
+[Live Site](https://beats-langing-page-project.netlify.app/)
+
+Project 12 Data Analytics Estate Landing Page - [Source Code](./HTML-and-CSS-Projects/Project-12-%20Data%20Analytics%20Landing%20Page/) |
+[Live Site](https://data-analytics-langing-page-project.netlify.app/)
