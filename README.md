@@ -6,6 +6,10 @@ This repo contains all my learnings, practice and assignments from iNeuron's Ful
 
 All articles - [Link](./Articles/readme.md)
 
+## JavaScript
+
+JavaScript 30 Questions assignment - [Link](./JavaScript-assignments/)
+
 ## HTML and CSS Assignments
 
 Project 01 SEO Master - [Link](./HTML-and-CSS-Projects/Project-1-%20SEO%20Master/)
