@@ -4,3 +4,7 @@ let navList = document.querySelector("nav ul");
 let newLiElement = document.createElement("li");
 newLiElement.innerHTML = `<a href="#">Hire Me</a>`;
 navList.appendChild(newLiElement);
+
+// hiding all social media icons
+let footerIcons = document.querySelector("footer ul");
+footerIcons.style.visibility = "hidden";
