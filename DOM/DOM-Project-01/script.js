@@ -29,3 +29,13 @@ footerIcons.style.visibility = "visible";
 // changing the image
 const imageEl = document.querySelector(".hero-right-section img");
 imageEl.src = "./myImage.jpeg";
+
+// --------------------------------- Task 05 ------------------------------------------------
+// changing image back to previous one
+imageEl.src = "./avtar.png";
+
+// creating a 'support me' button besides 'chat with me' button
+const heroButtons = document.querySelector(".hero-right-section-btns");
+let newBtn = document.createElement("button");
+newBtn.textContent = "Support Me";
+heroButtons.appendChild(newBtn);
