@@ -22,7 +22,7 @@
 
     <!-- adding the css file to html document -->
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./contact.css" />
   </head>
   <body>
     <!-- Header Portion -->
@@ -53,23 +53,52 @@
       <div class="mainLeft">
         <h2>User Output Board</h2>
         <form class="mainLeftDetails">
-          <input class="enterName" type="text" readonly placeholder="User Entered Name">
-          <input class="enterMail" type="email" readonly placeholder="User Entered Email">
-          <textarea class="enterMessage" readonly placeholder="User Entered Message"></textarea>
+          <input
+            class="enterName"
+            type="text"
+            readonly
+            placeholder="User Entered Name"
+          />
+          <input
+            class="enterMail"
+            type="email"
+            readonly
+            placeholder="User Entered Email"
+          />
+          <textarea
+            class="enterMessage"
+            readonly
+            placeholder="User Entered Message"
+          ></textarea>
           <button type="reset">Reset</button>
         </form>
       </div>
-      
+
       <!-- right div for accpeting the user input through the form -->
       <div class="mainRight">
         <h2>User Input Board</h2>
         <form>
-          <input class="userName" type="text" placeholder="Enter Your Name" required>
-          <input class="userEmail" type="email" placeholder="Enter Your Email" required>
-          <textarea class="userMessage" placeholder="Message" required></textarea>
+          <input
+            class="userName"
+            type="text"
+            placeholder="Enter Your Name"
+            required
+          />
+          <input
+            class="userEmail"
+            type="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <textarea
+            class="userMessage"
+            placeholder="Message"
+            required
+          ></textarea>
           <button type="submit">Submit</button>
         </form>
       </div>
     </main>
+    <script src="./contact.js"></script>
   </body>
 </html>
