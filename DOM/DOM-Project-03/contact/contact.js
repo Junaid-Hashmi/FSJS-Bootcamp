@@ -8,7 +8,10 @@ let outputMessage = document.querySelector(".enterMessage");
 document
   .querySelector('button[type="submit"]')
   .addEventListener("click", (e) => {
+    // preventing the page from reloading
     e.preventDefault();
+
+    // assigning values
     outputName.value = inputName.value;
     outputEmail.value = inputEmail.value;
     outputMessage.value = inputMessage.value;
