@@ -21,3 +21,19 @@ asideSection.style.border = "3px solid hsl(5, 85%, 63%)";
 asideSection.style.borderRadius = "6px";
 
 //--------------------- task 2 -------------------------------
+// disabling the scroll for aside
+asideSection.style.overflowY = "hidden";
+// removing the border for aside
+asideSection.style.border = "none";
+// changing bgc for body
+document.body.style.backgroundSize = 0;
+
+//--------------------- task 3 -------------------------------
+document.body.style.backgroundSize = "auto";
+
+// navbar toggler
+const togglerBtn = document.querySelector(".navbar-toggler");
+togglerBtn.addEventListener("click", () => {
+  const navbarCollapse = document.querySelector("#navbarTogglerDemo01");
+  navbarCollapse.classList.toggle("collapse");
+});
