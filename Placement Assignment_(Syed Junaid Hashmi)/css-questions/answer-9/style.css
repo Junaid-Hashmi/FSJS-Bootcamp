@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(19, 40px);
+  grid-template-rows: repeat(8, auto);
+  gap: 8px;
+}
+div {
+  text-align: center;
+}
+.pink {
+  background-color: pink;
+  border: solid 1px black;
+}
+
+.blue {
+  background-color: skyblue;
+  border: solid 1px black;
+}
+
+.green {
+  background-color: lightgreen;
+  border: solid 1px black;
+}
+
+.yellow {
+  background-color: yellow;
+  border: solid 1px black;
+}
+
+#helium {
+  grid-column: 19;
+}
+#boron,
+#aluminum {
+  grid-column: 14;
+}
+
+#lanthanum,
+#actinium {
+  grid-column: 4;
+}
