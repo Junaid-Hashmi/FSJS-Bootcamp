@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(152, 215, 240);
+  padding: 20px 10px;
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "aside article article";
+  gap: 40px;
+}
+
+h1 {
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+header {
+  background-color: rgb(4, 198, 189);
+  grid-area: header;
+}
+
+aside {
+  background-color: lightgreen;
+  grid-area: aside;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  background-color: rgb(224, 155, 27);
+  grid-area: article;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.image {
+  background-color: rgb(222, 219, 146);
+  height: 150px;
+  flex: 1;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
